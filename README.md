@@ -1,5 +1,6 @@
 # Automatic Directory Indexing
 
+* Place `index.php` inside the folder you want indexed. Direct your browser to that directory to see a list of its contents.
 * Automatically generates a list of links for all folders/files in the same folder as the `index.php` file.
 * It will ignore itself and any files or folders starting with a period.
 * It assumes any name with a period in it (but not starting with a period) is a file and not a folder. This is strictly for the purposes of adding a trailing slash to the link text to distinguish folders from files.
